@@ -8,10 +8,17 @@ body{
 .common-bth{
     border-radius: 5px;
     background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
 }
 /* nav var releted style */
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .nav-title{
 
@@ -22,6 +29,8 @@ line-height: normal;
 }
 nav >ul{
     display:flex ;
+    align-items: center;
+    /* text-align: center; */
 }
 ul li{
     list-style: none;
