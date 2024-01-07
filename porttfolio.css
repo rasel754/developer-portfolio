@@ -174,7 +174,25 @@ font-weight: 700;
 /* footer style section */
 footer{
     display: flex;
+    gap: 100px;
     background: #FFF8F3;
     padding: 130px 200px;
     margin-top: 100px;
+}
+.footer-colum{
+    width: 50%ssss;
+}
+.social-link a{
+    margin-right:25px;;
+}
+.contact input,textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0;
+    width: 100%;
+
 }
